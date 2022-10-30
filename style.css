@@ -1,0 +1,88 @@
+body{
+    margin: 0 auto;
+}
+
+.heading{
+    float: left;
+    box-shadow: rgba(17, 17, 97, 0.25) 0px 13px 27px -5px;
+    width: 100%;
+    height: 120px;
+}
+
+.mainheading{    
+    font-size: 35px;
+    width: 100%;
+    height: 70%;
+    position: relative;left: 545px;
+}
+
+
+
+
+.outerbody{
+    width: 100%;
+    height: 580px;
+    background-image: linear-gradient( #5f2c82, #49a09d);
+
+
+}
+
+.infodiv{
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient( #5f2c82, #49a09d);
+    float: left;
+}
+
+.info{
+    position: relative;left: 460px;
+
+}
+
+
+
+.outer{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px;
+    position: relative;left: 450px;top: 150px;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));    
+
+}
+
+.container {
+    
+    width: 360px;
+}
+
+#inputField {
+    position: relative;left: 20px;top: -100px;
+    width: 300px;
+    height: 46px;
+    border-width: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    position: relative;left: 10px;top: -100px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.paragraph-styling {
+    position: relative;left: 25px;top: -90px;
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
